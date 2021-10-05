@@ -1,8 +1,15 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
 .q2_content {
-  width: 900px;
+  box-sizing: border-box;
+  width: 940px;
   padding: 20px;
   margin: 0 auto;
   background-color: #eff3f4;
@@ -15,14 +22,12 @@
 }
 
 .q2_content_img_left {
-  margin-right: 20px;
-  margin-bottom: 10px;
+  margin: 0 20px 10px 0;
   float: left;
 }
 
 .q2_content_img_right {
-  margin-left: 20px;
-  margin-bottom: 10px;
+  margin: 0 0 10px 20px;
   float: right;
 }
 
