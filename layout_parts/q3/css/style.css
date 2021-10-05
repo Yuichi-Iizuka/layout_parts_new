@@ -7,10 +7,6 @@
   border: 1px #dedede solid;
 }
 
-table {
-  border-collapse: collapse;
-}
-
 .q3_content th,
 .q3_content td {
   padding: 10px;
@@ -30,18 +26,11 @@ table {
   line-height: 22px;
 }
 
-table.q3_content tbody > tr > td:first-child {
-  font-size: 18px;
-  line-height: 26px;
-  color: #fff;
-  background-color: #2244aa;
-}
-
-table.q3_content tbody > tr:nth-child(even) {
+.q3_content tbody > tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-table.q3_content tbody > tr:last-child {
+.q3_content tbody > tr:last-child {
   border-top: dashed #000 2px;
 }
 

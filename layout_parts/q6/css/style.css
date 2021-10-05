@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.is_align,
-.is_text-align {
+.is_align {
   text-align: center;
 }
 
@@ -61,8 +60,6 @@
   bottom: 0;
   left: 0;
   margin: auto;
-  width: 110px;
-  height: 30px;
 }
 
 .is_position_flex {
