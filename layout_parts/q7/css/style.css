@@ -59,7 +59,6 @@
 .is_flex_item {
   width: 225px;
   box-sizing: border-box;
-  vertical-align: middle;
 }
 
 .is_stable_box,
